@@ -13,7 +13,6 @@ const Chart = ({ dataTime, dataTemp }) => {
     const height = 500;
     const margin = { top: 20, right: 30, bottom: 30, left: 40 };
 
-    // Parse time strings to Date objects
     const parsedTimeData = dataTime.map((timeString) => new Date(timeString));
 
     const xScale = d3
